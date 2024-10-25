@@ -1,0 +1,4 @@
+open_clip_training/openclip_data/*
+open_clip_training/src/logs/*
+*__pycache__*
+models/
