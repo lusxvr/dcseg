@@ -1,7 +1,7 @@
 <span align="center">
 <h1> DCSEG: Decoupled 3D Open-Set Segmentation using Gaussian Splatting</h1>
 
-<a> Luis Wiedmann, Luca Wiehe, David David Rozenberszki </a>
+<a> Luis Wiedmann, Luca Wiehe, David Rozenberszki </a>
 
 We present DCSEG, a holistic 3D reconstruction and scene understanding method. 
 In the core of our method we leverage pretrained 2D foundation models such as SAM to recognize uniform semantic concepts in 2D images of 3D scenes, and use these predicted masks as contrastive optimization targets from multi-view images to class-agnostic 3D instances and object parts. These features are then used to cluster the Gaussians in 3D with hierarchical clustering methods. 
