@@ -3,6 +3,8 @@
 
 <a> Luis Wiedmann, Luca Wiehe, David Rozenberszki </a>
 
+<a> [Paper](https://arxiv.org/abs/2412.10972) </a>
+
 We present DCSEG, a holistic 3D reconstruction and scene understanding method. 
 In the core of our method we leverage pretrained 2D foundation models such as SAM to recognize uniform semantic concepts in 2D images of 3D scenes, and use these predicted masks as contrastive optimization targets from multi-view images to class-agnostic 3D instances and object parts. These features are then used to cluster the Gaussians in 3D with hierarchical clustering methods. 
 Simultaneously, we use a 2D semantic segmentation network to obtain class-aware masks and aggregate class-agnostic parts into meaningful semantic instances. As a results we obtain 2D/3D instance and semantic segmentation on synthetic and real world scenes
@@ -173,4 +175,18 @@ The pipeline is always broken down into the following parts:
       |-- utils
       benchmark_scenes.py
       files.py
+```
+
+## Citation
+If you find this work helpful, please cite
+```
+@misc{wiedmann2024dcsegdecoupled3dopenset,
+      title={DCSEG: Decoupled 3D Open-Set Segmentation using Gaussian Splatting}, 
+      author={Luis Wiedmann and Luca Wiehe and David Rozenberszki},
+      year={2024},
+      eprint={2412.10972},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2412.10972}, 
+}
 ```
