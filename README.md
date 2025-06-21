@@ -1,7 +1,7 @@
 <span align="center">
 <h1> DCSEG: Decoupled 3D Open-Set Segmentation using Gaussian Splatting</h1>
 
-<a> Luis Wiedmann, Luca Wiehe, David Rozenberszki </a>
+<a> Luis Wiedmann*, Luca Wiehe*, David Rozenberszki </a>
 
 <a> [Paper](https://arxiv.org/abs/2412.10972) </a>
 
